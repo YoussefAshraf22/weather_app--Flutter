@@ -12,6 +12,7 @@ class WeatherApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
+        title: 'Weather App',
         home: SafeArea(
           child: HomePage(),
         ));
